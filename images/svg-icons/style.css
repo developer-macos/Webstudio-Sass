@@ -15,26 +15,34 @@ Single-colored icons can be modified like so:
 }
 ========================================== */
 
-.icon-foster {
-  width: 2.0234375em;
+.icon-envelope-hover {
+  width: 1.3330078125em;
+}
+
+.icon-smartphone {
+  width: 0.625em;
 }
 
 .icon-brand {
-  width: 1.3408203125em;
+  width: 1.34375em;
 }
 
 .icon-company {
-  width: 0.8720703125em;
+  width: 0.875em;
 }
 
 .icon-companytitle-none {
-  width: 1.0712890625em;
+  width: 1.0625em;
+}
+
+.icon-foster {
+  width: 2.03125em;
 }
 
 .icon-logo {
-  width: 1.7666015625em;
+  width: 1.78125em;
 }
 
 .icon-tagline {
-  width: 2.0888671875em;
+  width: 2.09375em;
 }
