@@ -299,11 +299,11 @@ body ul a {
   margin-left: 24px;
 }
 
-header > ul {
+header>ul {
   font-family: "Roboto", sans-serif;
 }
 
-b + p {
+b+p {
   font-family: "Roboto", sans-serif;
   font-size: 19px;
 }
@@ -384,7 +384,7 @@ body {
   color: black;
 }
 
-.port:hover{
+.port:hover {
   color: #2196F3;
   transition: cubic-bezier(0.215, 0.610, 0.355, 1) 0.2s;
 }
@@ -648,7 +648,7 @@ textarea {
   position: relative;
 }
 
-.thumb > .p-img {
+.thumb>.p-img {
   position: absolute;
   bottom: 0;
   background-color: rgba(47, 48, 58, 0.8);
@@ -875,4 +875,6 @@ textarea {
   width: 270px;
   height: 120px;
   margin-bottom: 30px;
-}/*# sourceMappingURL=main.css.map */
+}
+
+/*# sourceMappingURL=main.css.map */

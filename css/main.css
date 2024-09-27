@@ -1,3 +1,9 @@
+@media screen and (max-width: 480px) {
+  body {
+    max-width: 480px;
+    max-height: 1200px;
+  }
+}
 :root {
   --accent-color: #2196f3;
   --color-for-nothing: #ffffff;
@@ -5,12 +11,12 @@
   --about-color: #757575;
   --shadow-color: #2f303a;
   --background-color-for-team-cards: #f5f4fa;
-  --color-for-hover: #2196F3;
+  --color-for-hover: #2196f3;
   --color-for-modal-p: #757575;
 }
 
 .path:hover {
-  fill: #2196F3;
+  fill: #2196f3;
   -webkit-transition-duration: 250ms;
           transition-duration: 250ms;
   -webkit-transition: cubic-bezier(0.4, 0, 0.2, 1);
@@ -23,7 +29,7 @@
 }
 
 .a-hover-links .svgicons:hover {
-  background-color: #2196F3;
+  background-color: #2196f3;
   color: white;
 }
 
@@ -154,7 +160,7 @@ body {
 
 .container {
   /* display: flex;
-  align-items: center; */
+    align-items: center; */
   margin: 0 auto;
 }
 
@@ -312,7 +318,7 @@ body ul a {
 }
 
 .buttons:hover {
-  background-color: #2196F3;
+  background-color: #2196f3;
   color: white;
   -webkit-transition: cubic-bezier(0.4, 0, 0.2, 1);
   transition: cubic-bezier(0.4, 0, 0.2, 1);
@@ -526,7 +532,7 @@ body {
 }
 
 .modal-button {
-  background-color: #2196F3;
+  background-color: #2196f3;
   color: white;
   width: 200px;
   height: 50px;
@@ -584,7 +590,7 @@ body {
 }
 
 .a-modal {
-  color: #2196F3;
+  color: #2196f3;
 }
 
 textarea {
@@ -658,7 +664,7 @@ textarea {
   width: 528px;
   height: 581px;
   padding: 15px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   background-repeat: no-repeat;
@@ -673,7 +679,7 @@ textarea {
 .btn {
   border: none;
   cursor: pointer;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   width: 30px;
   height: 30px;
 }
