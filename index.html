@@ -14,7 +14,12 @@
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100..900&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="reset.css" />
   <link rel="stylesheet" href="./sass/main.css" />
-  <meta name="description" content="Web site created using create-react-app" />
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+  integrity="sha512-ISS7cAi1PEhQ8jnbJpJZMd29NlhNj4AWYyLOSp2CE/CsHxTCu+r+t0D2yoJudVrd0/8fTVPUVDzY5Tvli75u/g=="
+  crossorigin="anonymous"
+/>
   <title>WEBSTUDIO | Official Website</title>
 </head>
 
@@ -28,6 +33,34 @@
       <a href="#" class="port">Контакти</a>
       <a class="gmail-in-index" href="mailto:info@devstudio.com">info@devstudio.com</a>
       <a class="tel" href="tel:+38-096-111-11-11">+38 096 111 11 11</a>
+    </div>
+    <div class="container">
+      <button
+        class="menu-toggle js-open-menu"
+        aria-expanded="false"
+        aria-controls="mobile-menu"
+      >
+        <svg
+          width="24"
+          height="24"
+          fill="currentColor"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+            clip-rule="evenodd"
+          ></path>
+        </svg>
+      </button>
+
+      <ul class="menu">
+        <li><a href="" class="link">About</a></li>
+        <li><a href="" class="link">Products</a></li>
+        <li><a href="" class="link">Contacts</a></li>
+        <li><a href="" class="link">Career</a></li>
+      </ul>
     </div>
   </header>
   <main>
@@ -452,7 +485,7 @@
     </section>
   </footer>
 </body>
-<script src="js.js"></script>
-<ruby href="script.rb"></ruby>
+<script src="./js/js.js"></script>
+<script src="./js/mobile.js"></script>
 
 </html>
