@@ -469,8 +469,8 @@ body ul a {
 .buttons:hover {
   background-color: #2196f3;
   color: white;
-  -webkit-transition: cubic-bezier(0.4, 0, 0.2, 1);
-  transition: cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: cubic-bezier(0.4, 0, 0.2, 1) ease-in-out;
+  transition: cubic-bezier(0.4, 0, 0.2, 1) ease-in-out;
   -webkit-transition-duration: 250ms;
           transition-duration: 250ms;
 }

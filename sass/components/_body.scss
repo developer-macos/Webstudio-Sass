@@ -289,7 +289,7 @@ body ul a {
 .buttons:hover {
   background-color: #2196f3;
   color: white;
-  transition: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: cubic-bezier(0.4, 0, 0.2, 1) ease-in-out;
   transition-duration: 250ms;
 }
 
